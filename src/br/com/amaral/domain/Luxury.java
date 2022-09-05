@@ -4,7 +4,17 @@ import br.com.amaral.factory.Car;
 
 public class Luxury extends Car {
 
+
     public Luxury(int horsePower, String fuelSource, String color) {
         super(horsePower, fuelSource, color);
     }
+
+    public Luxury() {
+
+    }
+
+    public String getTipo() {
+        return (getClass().getSimpleName());
+    }
+
 }

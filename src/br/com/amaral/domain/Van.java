@@ -6,4 +6,8 @@ public class Van extends Car {
     public Van(int horsePower, String fuelSource, String color) {
         super(horsePower, fuelSource, color);
     }
+
+    public Van() {
+
+    }
 }

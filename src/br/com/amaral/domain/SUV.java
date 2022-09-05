@@ -6,4 +6,8 @@ public class SUV extends Car {
     public SUV(int horsePower, String fuelSource, String color) {
         super(horsePower, fuelSource, color);
     }
+
+    public SUV() {
+
+    }
 }

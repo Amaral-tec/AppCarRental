@@ -6,4 +6,8 @@ public class Convertible extends Car {
     public Convertible(int horsePower, String fuelSource, String color) {
         super(horsePower, fuelSource, color);
     }
+
+    public Convertible() {
+        super();
+    }
 }

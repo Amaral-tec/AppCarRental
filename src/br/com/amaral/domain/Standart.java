@@ -6,4 +6,8 @@ public class Standart extends Car {
     public Standart(int horsePower, String fuelSource, String color) {
         super(horsePower, fuelSource, color);
     }
+
+    public Standart() {
+
+    }
 }

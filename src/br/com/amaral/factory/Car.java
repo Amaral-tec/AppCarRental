@@ -6,11 +6,17 @@ public abstract class Car {
     private String fuelSource;
     private String color;
 
+
     public Car(int horsePower, String fuelSource, String color) {
         this.horsePower = horsePower;
         this.fuelSource = fuelSource;
         this.color = color;
     }
+
+    public Car() {
+    }
+
+    //public abstract String getTipo();
 
     public void startEngine() {
         System.out.println(getClass().getSimpleName());
